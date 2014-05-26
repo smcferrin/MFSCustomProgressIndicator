@@ -15,4 +15,10 @@
     // Insert code here to initialize your application
 }
 
+- (IBAction)updateProgressIndicator:(id)sender {
+    
+    NSSlider *slider = sender;
+    self.progressIndicator.progress = slider.floatValue;
+}
+
 @end

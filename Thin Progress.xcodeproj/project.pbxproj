@@ -18,6 +18,7 @@
 		AA5F00E0193142F100E98BE2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5F00BF193142F100E98BE2 /* Cocoa.framework */; };
 		AA5F00E8193142F100E98BE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA5F00E6193142F100E98BE2 /* InfoPlist.strings */; };
 		AA5F00EA193142F100E98BE2 /* Thin_ProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F00E9193142F100E98BE2 /* Thin_ProgressTests.m */; };
+		AA5F00FE193144CE00E98BE2 /* MFSCustomProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5F00FD193144CE00E98BE2 /* MFSCustomProgressIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		AA5F00E5193142F100E98BE2 /* Thin ProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thin ProgressTests-Info.plist"; sourceTree = "<group>"; };
 		AA5F00E7193142F100E98BE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA5F00E9193142F100E98BE2 /* Thin_ProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thin_ProgressTests.m; sourceTree = "<group>"; };
+		AA5F00FC193144CE00E98BE2 /* MFSCustomProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSCustomProgressIndicator.h; sourceTree = "<group>"; };
+		AA5F00FD193144CE00E98BE2 /* MFSCustomProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSCustomProgressIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				AA5F00D1193142F100E98BE2 /* MFSAppDelegate.h */,
 				AA5F00D2193142F100E98BE2 /* MFSAppDelegate.m */,
+				AA5F00FC193144CE00E98BE2 /* MFSCustomProgressIndicator.h */,
+				AA5F00FD193144CE00E98BE2 /* MFSCustomProgressIndicator.m */,
 				AA5F00D4193142F100E98BE2 /* MainMenu.xib */,
 				AA5F00D7193142F100E98BE2 /* Images.xcassets */,
 				AA5F00C6193142F100E98BE2 /* Supporting Files */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5F00CC193142F100E98BE2 /* main.m in Sources */,
+				AA5F00FE193144CE00E98BE2 /* MFSCustomProgressIndicator.m in Sources */,
 				AA5F00D3193142F100E98BE2 /* MFSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
